@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+header .logo {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+header h1 {
+    font-size: 1.8em;
+    margin: 0;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.destaque {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #fff;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-destaque {
+    max-width: 700px;
+    margin: 0 auto;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card-destaque img {
+    width: 100%;
+    height: auto;
+    border-bottom: 4px solid #e67e22;
+}
+
+.destaque-body {
+    padding: 20px;
+}
+
+.destaque-body h2 {
+    font-size: 2em;
+    margin: 0;
+}
+
+.destaque-body p {
+    color: #555;
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+.lista-hamburgueres {
+    padding: 20px;
+}
+
+.lista-hamburgueres h2 {
+    text-align: center;
+    font-size: 1.8em;
+    color: #333;
+    margin: 20px 0;
+    border-bottom: 2px solid #e67e22;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.hamburguer-item {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin: 15px auto;
+    padding: 15px;
+    max-width: 700px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.hamburguer-item:hover {
+    transform: scale(1.02);
+}
+
+.hamburguer-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 15px;
+}
+
+.item-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.hamburguer-item h3 {
+    font-size: 1.4em;
+    margin: 0;
+    color: #333;
+}
+
+.hamburguer-item p {
+    color: #555;
+    margin: 5px 0 0;
+    font-size: 0.9em;
+}
